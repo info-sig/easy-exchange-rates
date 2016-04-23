@@ -3,7 +3,7 @@ class RodaApp < Roda
   route do |r|
     # GET / request
     r.root do
-      "Hello World"
+      r.redirect 'https://github.com/info-sig/easy-exchange-rates'
     end
 
     # /hello branch
