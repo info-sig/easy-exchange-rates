@@ -12,6 +12,10 @@ The application is deployed on heroku on http://easy-exchange-rates.herokuapp.co
 2. HNB JSON: [/hnb/json](http://easy-exchange-rates.herokuapp.com/hnb/json)
 3. HNB XML: [/hnb/xml](http://easy-exchange-rates.herokuapp.com/hnb/xml)
 
+## Architecture
+
+A simple [Roda](https://github.com/jeremyevans/roda) application running on [Puma](https://github.com/puma/puma) on Heroku with no infrastructure attached to it, just a simple in-memory store for cacheing.
+
 
 ## License
 
