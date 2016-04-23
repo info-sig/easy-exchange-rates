@@ -9,7 +9,7 @@ module HNB
     attr_accessor :header
     attr_accessor :serial_number, :created_at, :date, :number_of_records
 
-    def initialize(raw, options = {})
+    def initialize(raw, _options = {})
       @raw = raw
     end
 
@@ -61,7 +61,7 @@ module HNB
     private
 
     def to_f string
-      string.gsub(',', '.').to_f
+      string.tr(',', '.').to_f
     end
 
   end
