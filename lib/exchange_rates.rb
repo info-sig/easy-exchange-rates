@@ -1,4 +1,8 @@
 require 'active_support/cache'
+require 'active_support/core_ext/hash'
+
+require_relative 'hnb'
+require_relative 'roda_app'
 
 module ExchangeRates
 
