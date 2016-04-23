@@ -9,8 +9,8 @@ So far we only have the Croatia National Bank API (HNB, Hrvatska Narodna Banka),
 The application is deployed on heroku on http://easy-exchange-rates.herokuapp.com (the URL will redirect to this page). All API's are simple GET requests, but the code should responde to other verbs as well. API endpoints are the following:
 
 1. HNB original file: [/hnb/original](http://easy-exchange-rates.herokuapp.com/hnb/original)
-2. HNB JSON: [/hnb/original](http://easy-exchange-rates.herokuapp.com/hnb/json)
-3. HNB XML: [/hnb/original](http://easy-exchange-rates.herokuapp.com/hnb/xml)
+2. HNB JSON: [/hnb/json](http://easy-exchange-rates.herokuapp.com/hnb/json)
+3. HNB XML: [/hnb/xml](http://easy-exchange-rates.herokuapp.com/hnb/xml)
 
 
 ## License
