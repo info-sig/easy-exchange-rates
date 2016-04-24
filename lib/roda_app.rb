@@ -6,9 +6,9 @@ class RodaApp < Roda
       r.redirect 'https://github.com/info-sig/easy-exchange-rates'
     end
 
-    # /hello branch
+    # /hnb branch
     r.on "hnb" do
-      # /hello/original
+      # /hnb/original
       r.on "original" do
         response.headers['Content-Type'] = 'text/plain;charset=UTF-8'
         HNB.original_file
