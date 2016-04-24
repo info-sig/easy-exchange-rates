@@ -1,6 +1,6 @@
 # Easy Exchange Rates
 
-[![Build Status](https://travis-ci.org/info-sig/easy-exchange-rates.png?branch=master)](https://travis-ci.org/info-sig/easy-exchange-rates) [![Code Climate](https://codeclimate.com/github/info-sig/easy-exchange-rates.png)](https://codeclimate.com/github/bbozo/simple_form_class)
+[![Build Status](https://travis-ci.org/info-sig/easy-exchange-rates.png?branch=master)](https://travis-ci.org/info-sig/easy-exchange-rates) [![Code Climate](https://codeclimate.com/github/info-sig/easy-exchange-rates.png)](https://codeclimate.com/github/info-sig/easy-exchange-rates)
 
 A simple, light-weight API service for exchange rates.
 
